@@ -2,7 +2,7 @@
 
 namespace PosSystem;
 
-interface INomenclature extends IModel
+interface INomenclature
 {
 
 }

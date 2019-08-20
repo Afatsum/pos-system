@@ -10,7 +10,7 @@ class AuthData implements IAuthData
     private $pass = '';
     private $orgId = '';
 
-    public function __construct(string $login, string $pass, string $orgId)
+    public function __construct(string $login, string $pass, string $orgId = '')
     {
         $this->setLogin($login);
         $this->setPass($pass);
