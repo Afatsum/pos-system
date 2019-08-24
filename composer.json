@@ -1,0 +1,23 @@
+{
+  "name": "afatsum/pos-system",
+  "description": "PHP library for working with the API of the most famous restaurant POS systems: iiko API SDK, arhi API SDK, rKeeper API SDK, frontpad API SDK...",
+  "keywords": [
+    "php",
+    "iiko",
+    "rkeeper",
+    "frontpad",
+    "posSystem"
+  ],
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Mustafa Urganaev",
+      "email": "mustafa.urg@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "afatsum\\pos-system\\": ""
+    }
+  }
+}
